@@ -27,7 +27,7 @@ const Cart: React.FC<CartProps> = ({ cart, onUpdateQuantity, onRemoveFromCart })
 
   const handleWhatsAppCheckout = () => {
     const message = generateWhatsAppMessage();
-    const whatsappUrl = `https://wa.me/27827763343?text=${message}`;
+    const whatsappUrl = `https://wa.me/27797943335?text=${message}`;
     window.open(whatsappUrl, '_blank');
   };
 
