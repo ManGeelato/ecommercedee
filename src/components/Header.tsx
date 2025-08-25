@@ -38,10 +38,10 @@ const Header: React.FC<HeaderProps> = ({ cartItemsCount, onSearchToggle, onImage
               <img 
                 src="/AfriVisionTech Logo Design.png" 
                 alt="AfriVisionTech" 
-                className="h-12 w-auto"
+                className="h-15 sm:h-16 md:h-30 w-auto"
               />
             </Link>
-            <span className="text-sm text-gray-500 ml-3">Your Global Technology Marketplace</span>
+            <span className="text-sm text-gray-500 ml-3">AfriVisionTech</span>
           </div>
 
           {/* Search Bar */}

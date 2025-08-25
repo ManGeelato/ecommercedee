@@ -80,7 +80,7 @@ const Footer: React.FC = () => {
             <div className="mt-6">
               <h5 className="font-semibold mb-2">WhatsApp Support</h5>
               <a 
-                href="https://wa.me/27797943335" 
+                href="https://wa.me/27827763343" 
                 className="inline-flex items-center bg-green-600 hover:bg-green-700 px-4 py-2 rounded-lg transition-colors"
               >
                 <Phone className="w-4 h-4 mr-2" />
