@@ -11,6 +11,8 @@ const CategoryGrid: React.FC = () => {
         <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6">
           {categories.map((category) => {
             const IconComponent = Icons[category.icon as keyof typeof Icons] as React.ComponentType<any>;
+
+            
             
             return (
               <Link

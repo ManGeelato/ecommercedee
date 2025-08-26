@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import CategoryGrid from '../components/CategoryGrid';
 import { categories } from '../data/categories';
 import * as Icons from 'lucide-react';
 
