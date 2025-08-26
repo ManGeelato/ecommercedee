@@ -20,7 +20,7 @@ const Header: React.FC<HeaderProps> = ({ cartItemsCount, onSearchToggle, onImage
       <div className="bg-blue-600 text-white py-2 hidden lg:block">
         <div className="max-w-7xl mx-auto px-4 flex justify-between items-center text-sm">
           <div className="flex items-center space-x-4">
-            <span>📞 +27 79 794 3335</span>
+            <span>📞 +27 87 163 4634</span>
             <span className="hidden xl:inline">📧 info@afrivisiontech.co.za</span>
           </div>
           <div className="flex items-center space-x-4">
@@ -284,7 +284,7 @@ const Header: React.FC<HeaderProps> = ({ cartItemsCount, onSearchToggle, onImage
             </div>
             {/* Mobile Contact Info */}
             <div className="border-t pt-3 mt-3 text-sm text-gray-600 space-y-1">
-              <div>📞 +27 79 794 3335</div>
+              <div>📞 +27 87 163 4634</div>
               <div>📧 info@afrivisiontech.co.za</div>
               <div className="text-blue-600">Free Shipping on Orders Over R500</div>
             </div>
