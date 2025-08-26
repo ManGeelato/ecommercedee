@@ -49,24 +49,12 @@ import sport02 from '../assets/images/sport02.jpg';
 import sport03 from '../assets/images/sport03.jpg';
 import sport04 from '../assets/images/sport04.jpg';
 
-<<<<<<< HEAD
 import medical01 from '../assets/images/medical01.jpg';
 import medical02 from '../assets/images/medical02.jpg';
 import medical03 from '../assets/images/medical03.jpg';
 import medical04 from '../assets/images/medical04.jpg';
 import medical05 from '../assets/images/medical05.jpg';
-import medical06 from '../assets/images/medical06.jpg';
-import medical07 from '../assets/images/medical07.jpg';
-import medical08 from '../assets/images/medical08.jpg';
 
-
-
-
-
-
-
-=======
->>>>>>> bd969067a61f8c778fda820c4f81ba879b899368
 export const products: Product[] = [
   {
     id: '1',
@@ -620,7 +608,6 @@ export const products: Product[] = [
     isHotDeal: true,
     isFeatured: true
   },
-<<<<<<< HEAD
   {
   id: '41',
   name: 'Oxygen Machine',
@@ -711,8 +698,6 @@ export const products: Product[] = [
   isHotDeal: true,
   isFeatured: true
   }
-=======
->>>>>>> bd969067a61f8c778fda820c4f81ba879b899368
 ];
 
 export const dealOfTheDay = {
