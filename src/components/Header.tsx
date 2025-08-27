@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { Search, ShoppingCart, Menu, X, Camera } from 'lucide-react';
 import { Link, useLocation } from 'react-router-dom';
+import logo from '../assets/AfriVisionTech Logo Design.png';
 
 interface HeaderProps {
   cartItemsCount: number;
@@ -36,11 +37,7 @@ const Header: React.FC<HeaderProps> = ({ cartItemsCount, onSearchToggle, onImage
           {/* Logo */}
         <div className="flex items-center min-w-0 flex-shrink-0">
           <Link to="/" className="flex items-center hover:opacity-80 transition-opacity">
-            <img 
-              src="/AfriVisionTech Logo Design.png" 
-              alt="AfriVisionTech" 
-              className="h-16 sm:h-20 md:h-24 w-auto"
-            />
+            <img src={logo} alt="AfriVisionTech" className="h-16 sm:h-20 md:h-24 w-auto" />
           </Link>
           <span className="text-xs sm:text-sm text-gray-500 ml-2 hidden sm:block">
             AfriVisionTech
