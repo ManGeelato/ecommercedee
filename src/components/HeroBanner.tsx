@@ -8,12 +8,12 @@ const HeroBanner: React.FC = () => {
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <div>
             <h1 className="text-5xl font-bold mb-6 leading-tight">
-              Your Global Technology Marketplace for 
-              <span className="text-yellow-300"> Innovation</span>
+              Your Global Marketplace for Diversified
+              <span className="text-yellow-300"> Products</span>
             </h1>
             <p className="text-xl mb-8 text-blue-100">
-              From cutting-edge technology to industrial solutions, discover innovative products 
-              from trusted suppliers worldwide. B2B and B2C technology solutions with global sourcing.
+              From cutting-edge medical products to industrial solutions, discover innovative products 
+              from trusted suppliers worldwide.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 mb-8">
               <button className="bg-yellow-500 hover:bg-yellow-600 text-black px-8 py-4 rounded-lg font-semibold transition-colors flex items-center justify-center">
