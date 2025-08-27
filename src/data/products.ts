@@ -55,6 +55,17 @@ import medical03 from '../assets/images/medical03.jpg';
 import medical04 from '../assets/images/medical04.jpg';
 import medical05 from '../assets/images/medical05.jpg';
 
+import BEDSCREEN from '../assets/images/BEDSCREEN.JPG';
+import BEDSIDELOCKER from '../assets/images/BEDSIDELOCKER.JPG';
+import CONNEXMONITOR from '../assets/images/CONNEXMONITOR.JPG';
+import COTBED from '../assets/images/COTBED.JPG';
+import DINAMAPRANGE from '../assets/images/DINAMAP RANGE.JPG';
+import EMERGENCYTRAUMABED from '../assets/images/EMERGENCYTRAUMABED.JPG';
+import EXAMINATIONBED from '../assets/images/EXAMINATIONBED.JPG';
+import FAMILYPACKTORSO from '../assets/images/FAMILYPACKTORSO.JPG';
+import FOURWHEELWALKER from '../assets/images/FOURWHEEL WALKER.JPG';
+import HANDHELDOXIMETER from '../assets/images/HANDHELDOXIMETER.JPG';
+
 
 import camera01 from '../assets/images/camera01.jpg';
 import camera02 from '../assets/images/camera02.jpg';
@@ -703,7 +714,127 @@ export const products: Product[] = [
   inStock: true,
   isHotDeal: true,
   isFeatured: true
-  }
+  },
+  {
+    id: '47',
+    name: 'Blood Pressure Cuff',
+    price: 45000,
+    originalPrice: 52000,
+    image: BEDSCREEN,
+    category: 'Medical Equipment',
+    rating: 5.6,
+    reviews: 56,
+    seller: 'TechMachinery Ltd',
+    description: 'Blood Pressure check',
+    inStock: true,
+    isHotDeal: true,
+    isFeatured: true
+    },
+    {
+      id: '48',
+      name: 'Blood Pressure Cuff',
+      price: 45000,
+      originalPrice: 52000,
+      image:BEDSIDELOCKER,
+      category: 'Medical Equipment',
+      rating: 5.6,
+      reviews: 56,
+      seller: 'TechMachinery Ltd',
+      description: 'Blood Pressure check',
+      inStock: true,
+      isHotDeal: true,
+      isFeatured: true
+      },
+      {
+        id: '49',
+        name: 'Blood Pressure Cuff',
+        price: 45000,
+        originalPrice: 52000,
+        image: CONNEXMONITOR,
+        category: 'Medical Equipment',
+        rating: 5.6,
+        reviews: 56,
+        seller: 'TechMachinery Ltd',
+        description: 'Blood Pressure check',
+        inStock: true,
+        isHotDeal: true,
+        isFeatured: true
+        },
+        {
+          id: '50',
+          name: 'Blood Pressure Cuff',
+          price: 45000,
+          originalPrice: 52000,
+          image: COTBED,
+          category: 'Medical Equipment',
+          rating: 5.6,
+          reviews: 56,
+          seller: 'TechMachinery Ltd',
+          description: 'Blood Pressure check',
+          inStock: true,
+          isHotDeal: true,
+          isFeatured: true
+          },
+          {
+            id: '51',
+            name: 'Blood Pressure Cuff',
+            price: 45000,
+            originalPrice: 52000,
+            image: DINAMAPRANGE,
+            category: 'Medical Equipment',
+            rating: 5.6,
+            reviews: 56,
+            seller: 'TechMachinery Ltd',
+            description: 'Blood Pressure check',
+            inStock: true,
+            isHotDeal: true,
+            isFeatured: true
+            },
+            {
+              id: '52',
+              name: 'Blood Pressure Cuff',
+              price: 45000,
+              originalPrice: 52000,
+              image: EMERGENCYTRAUMABED,
+              category: 'Medical Equipment',
+              rating: 5.6,
+              reviews: 56,
+              seller: 'TechMachinery Ltd',
+              description: 'Blood Pressure check',
+              inStock: true,
+              isHotDeal: true,
+              isFeatured: true
+              },
+              {
+                id: '53',
+                name: 'Blood Pressure Cuff',
+                price: 45000,
+                originalPrice: 52000,
+                image: EXAMINATIONBED,
+                category: 'Medical Equipment',
+                rating: 5.6,
+                reviews: 56,
+                seller: 'TechMachinery Ltd',
+                description: 'Blood Pressure check',
+                inStock: true,
+                isHotDeal: true,
+                isFeatured: true
+                },
+                {
+                  id: '54',
+                  name: 'Blood Pressure Cuff',
+                  price: 45000,
+                  originalPrice: 52000,
+                  image: FAMILYPACKTORSO,
+                  category: 'Medical Equipment',
+                  rating: 5.6,
+                  reviews: 56,
+                  seller: 'TechMachinery Ltd',
+                  description: 'Blood Pressure check',
+                  inStock: true,
+                  isHotDeal: true,
+                  isFeatured: true
+                  }
 ];
 
 export const dealOfTheDay = {
