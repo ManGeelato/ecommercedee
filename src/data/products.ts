@@ -1182,7 +1182,7 @@ export const products: Product[] = [
   isFeatured: true
   },
   {
-    id: '47',
+    id: '78',
     name: 'Blood Pressure Cuff',
     price: 45000,
     originalPrice: 52000,
@@ -1197,7 +1197,7 @@ export const products: Product[] = [
     isFeatured: true
     },
     {
-      id: '48',
+      id: '79',
       name: 'Blood Pressure Cuff',
       price: 45000,
       originalPrice: 52000,
@@ -1212,7 +1212,7 @@ export const products: Product[] = [
       isFeatured: true
       },
       {
-        id: '49',
+        id: '80',
         name: 'Blood Pressure Cuff',
         price: 45000,
         originalPrice: 52000,
@@ -1227,7 +1227,7 @@ export const products: Product[] = [
         isFeatured: true
         },
         {
-          id: '50',
+          id: '81',
           name: 'Blood Pressure Cuff',
           price: 45000,
           originalPrice: 52000,
@@ -1242,7 +1242,7 @@ export const products: Product[] = [
           isFeatured: true
           },
           {
-            id: '51',
+            id: '82',
             name: 'Blood Pressure Cuff',
             price: 45000,
             originalPrice: 52000,
@@ -1257,7 +1257,7 @@ export const products: Product[] = [
             isFeatured: true
             },
             {
-              id: '52',
+              id: '83',
               name: 'Blood Pressure Cuff',
               price: 45000,
               originalPrice: 52000,
@@ -1272,7 +1272,7 @@ export const products: Product[] = [
               isFeatured: true
               },
               {
-                id: '53',
+                id: '84',
                 name: 'Blood Pressure Cuff',
                 price: 45000,
                 originalPrice: 52000,
@@ -1287,7 +1287,7 @@ export const products: Product[] = [
                 isFeatured: true
                 },
                 {
-                  id: '54',
+                  id: '85',
                   name: 'Blood Pressure Cuff',
                   price: 45000,
                   originalPrice: 52000,
