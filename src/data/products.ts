@@ -55,6 +55,12 @@ import medical03 from '../assets/images/medical03.jpg';
 import medical04 from '../assets/images/medical04.jpg';
 import medical05 from '../assets/images/medical05.jpg';
 
+
+import camera01 from '../assets/images/camera01.jpg';
+import camera02 from '../assets/images/camera02.jpg';
+import camera03 from '../assets/images/camera03.jpg';
+import camera04 from '../assets/images/camera04.jpg';
+
 export const products: Product[] = [
   {
     id: '1',
@@ -73,38 +79,38 @@ export const products: Product[] = [
   },
   {
     id: '2',
-    name: 'Walk Talks',
+    name: 'Canon Camera',
     price: 1299,
     originalPrice: 1599,
-    image: electronics01,
+    image: camera01,
     category: 'Electronics',
     rating: 4.6,
     reviews: 156,
     seller: 'ElectroWorld',
-    description: 'High-performance gaming laptop with RTX graphics',
+    description: 'High-performance Canon Camera with RTX graphics',
     inStock: true,
     isHotDeal: true
   },
   {
     id: '3',
-    name: 'Televisions',
+    name: 'Leica Camera',
     price: 1299,
     originalPrice: 1599,
-    image: electronics02,
+    image: camera02,
     category: 'Electronics',
     rating: 4.6,
     reviews: 156,
     seller: 'ElectroWorld',
-    description: 'High-performance gaming laptop with RTX graphics',
+    description: 'Clear resolution Leica Camera',
     inStock: true,
     isHotDeal: true
   },
   {
     id: '4',
-    name: 'Televions',
+    name: 'Nikon Camera',
     price: 1299,
     originalPrice: 1599,
-    image: electronics03,
+    image: camera03,
     category: 'Electronics',
     rating: 4.6,
     reviews: 156,
@@ -115,10 +121,10 @@ export const products: Product[] = [
   },
   {
     id: '5',
-    name: 'Laptops',
+    name: 'Sony Camera',
     price: 1299,
     originalPrice: 1599,
-    image: electronics04,
+    image: camera04,
     category: 'Electronics',
     rating: 4.6,
     reviews: 156,
