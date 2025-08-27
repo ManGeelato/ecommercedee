@@ -158,7 +158,7 @@ const Header: React.FC<HeaderProps> = ({ cartItemsCount, onSearchToggle, onImage
                     : 'text-gray-700 hover:text-blue-600'
                 }`}
               >
-                Categories
+                Product Category
               </Link>
               <Link 
                 to="/hot-deals" 

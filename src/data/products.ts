@@ -72,6 +72,39 @@ import camera02 from '../assets/images/camera02.jpg';
 import camera03 from '../assets/images/camera03.jpg';
 import camera04 from '../assets/images/camera04.jpg';
 
+
+import adultNappies from '../assets/images/ADULTNAPPIES.jpg';
+import airwayOxygenBag from '../assets/images/AIRWAY OXYGEN BAG.jpg';
+import anaesthesiaTrolley from '../assets/images/ANAESTHESIA TROLLEY.jpg';
+import bloodPressureMeter from '../assets/images/BLOOD PRESSURE METER.jpg';
+import camicaComboBag from '../assets/images/CAMICA COMBO BAG.jpg';
+import cervicalCollar from '../assets/images/CERVICALCOLLAR.jpg';
+import extricationDevice from '../assets/images/EXTRICATION DEVICE.jpg';
+import fullbodySplint from '../assets/images/FULLBODY SPLINT.jpg';
+import homecareBeds from '../assets/images/HOMECARE BEDS.jpg';
+import medicalTrolley from '../assets/images/MEDICAL TROLLY.jpg';
+import medicineTrolley from '../assets/images/MEDICINE TROLLEY.jpg';
+import metalFirstAidKit from '../assets/images/METAL FIRST AID KIT.jpg';
+import metalMinersFirstAidKit from '../assets/images/METAL MINERS FIRST AID KIT.jpg';
+import microvent from '../assets/images/MICROVENT.jpg';
+import outdoorFirstAidKit from '../assets/images/OUTDOOR FIRSTAIDKIT.jpg';
+import oxygenCylinders from '../assets/images/OXYGEN CYLINDERS.jpg';
+import oxygenFlowmeter from '../assets/images/OXYGEN FLOWMETER.jpg';
+import p20Defribillator from '../assets/images/P20 Defribllator.jpg';
+import phillipsDefribillaotor from '../assets/images/PhillipsDefibrator.jpg';
+import pm15Defribillaotor from '../assets/images/PM15 Defriblator.jpg';
+import pm25Defribillator from '../assets/images/PM250Defibrillator.jpg';
+import pmxDefribillaotor from '../assets/images/PMX DEFRIBILLATOR.jpg';
+import rescueJumbsuit from '../assets/images/RESCUE.jpg';
+import scoopStretcher from '../assets/images/SCOOP STRETCHER.jpg';
+import spinalCordstretcher from '../assets/images/SPINALCORD STRETCHER.jpg';
+import urban2ParamedicaBAG from '../assets/images/URBAN 2 PARAMEDIC BAG.jpg';
+import utilityBagandJacket from '../assets/images/UTLITY BAGandJacket.jpg';
+import ventilaotorDragger from '../assets/images/VENTILATOR DRAGGER.jpg';
+import ventilatorParapac from '../assets/images/VENTILATOR PARAPAC.jpg';
+import waterRescueStretcher from '../assets/images/WATER RESCUE STRETCHER.jpg';
+import zollRDefribillator from '../assets/images/ZOLL R DEFRIBILLATOR.jpg';
+
 export const products: Product[] = [
   {
     id: '1',
@@ -712,7 +745,440 @@ export const products: Product[] = [
   seller: 'TechMachinery Ltd',
   description: 'Blood Pressure check',
   inStock: true,
-  isHotDeal: true,
+  isFeatured: true
+  },
+  {
+  id: '47',
+  name: 'Adult Nappies',
+  price: 45000,
+  originalPrice: 52000,
+  image: adultNappies,
+  category: 'Medical Equipment',
+  rating: 5.6,
+  reviews: 56,
+  seller: 'TechMachinery Ltd',
+  description: 'Blood Pressure check',
+  inStock: true,
+  isFeatured: true
+  },
+  {
+  id: '48',
+  name: 'Airway Oxygen Bag',
+  price: 45000,
+  originalPrice: 52000,
+  image: airwayOxygenBag,
+  category: 'Medical Equipment',
+  rating: 5.6,
+  reviews: 56,
+  seller: 'TechMachinery Ltd',
+  description: 'Blood Pressure check',
+  inStock: true,
+  isFeatured: true
+  },
+  {
+  id: '49',
+  name: 'Anaethesia Trolley',
+  price: 45000,
+  originalPrice: 52000,
+  image: anaesthesiaTrolley,
+  category: 'Medical Equipment',
+  rating: 5.6,
+  reviews: 56,
+  seller: 'TechMachinery Ltd',
+  description: 'Blood Pressure check',
+  inStock: true,
+  isFeatured: true
+  },
+  {
+  id: '50',
+  name: 'Blood Pressure Meter',
+  price: 45000,
+  originalPrice: 52000,
+  image: bloodPressureMeter,
+  category: 'Medical Equipment',
+  rating: 5.6,
+  reviews: 56,
+  seller: 'TechMachinery Ltd',
+  description: 'Blood Pressure check',
+  inStock: true,
+  isFeatured: true
+  },
+  {
+  id: '51',
+  name: 'Camica Combo Bag',
+  price: 45000,
+  originalPrice: 52000,
+  image: camicaComboBag,
+  category: 'Medical Equipment',
+  rating: 5.6,
+  reviews: 56,
+  seller: 'TechMachinery Ltd',
+  description: 'Blood Pressure check',
+  inStock: true,
+  isFeatured: true
+  },
+  {
+  id: '52',
+  name: 'Cervical Collar',
+  price: 45000,
+  originalPrice: 52000,
+  image: cervicalCollar,
+  category: 'Medical Equipment',
+  rating: 5.6,
+  reviews: 56,
+  seller: 'TechMachinery Ltd',
+  description: 'Blood Pressure check',
+  inStock: true,
+  isFeatured: true
+  },
+  {
+  id: '53',
+  name: 'Extriction Device',
+  price: 45000,
+  originalPrice: 52000,
+  image: extricationDevice,
+  category: 'Medical Equipment',
+  rating: 5.6,
+  reviews: 56,
+  seller: 'TechMachinery Ltd',
+  description: 'Blood Pressure check',
+  inStock: true,
+  isFeatured: true
+  },
+  {
+  id: '54',
+  name: 'Full Body Splint',
+  price: 45000,
+  originalPrice: 52000,
+  image: fullbodySplint,
+  category: 'Medical Equipment',
+  rating: 5.6,
+  reviews: 56,
+  seller: 'TechMachinery Ltd',
+  description: 'Blood Pressure check',
+  inStock: true,
+  isFeatured: true
+  },
+  {
+  id: '55',
+  name: 'Homecare Beds',
+  price: 45000,
+  originalPrice: 52000,
+  image: homecareBeds,
+  category: 'Medical Equipment',
+  rating: 5.6,
+  reviews: 56,
+  seller: 'TechMachinery Ltd',
+  description: 'Blood Pressure check',
+  inStock: true,
+  isFeatured: true
+  },
+  {
+  id: '56',
+  name: 'Medical Trolley',
+  price: 45000,
+  originalPrice: 52000,
+  image: medicalTrolley,
+  category: 'Medical Equipment',
+  rating: 5.6,
+  reviews: 56,
+  seller: 'TechMachinery Ltd',
+  description: 'Blood Pressure check',
+  inStock: true,
+  isFeatured: true
+  },
+  {
+  id: '57',
+  name: 'Medicine Trolley',
+  price: 45000,
+  originalPrice: 52000,
+  image: medicineTrolley,
+  category: 'Medical Equipment',
+  rating: 5.6,
+  reviews: 56,
+  seller: 'TechMachinery Ltd',
+  description: 'Blood Pressure check',
+  inStock: true,
+  isFeatured: true
+  },
+  {
+  id: '58',
+  name: 'Metal First Aid Kit',
+  price: 45000,
+  originalPrice: 52000,
+  image: metalFirstAidKit,
+  category: 'Medical Equipment',
+  rating: 5.6,
+  reviews: 56,
+  seller: 'TechMachinery Ltd',
+  description: 'Blood Pressure check',
+  inStock: true,
+  isFeatured: true
+  },
+  {
+  id: '59',
+  name: 'Metal Miners First Aid Kit',
+  price: 45000,
+  originalPrice: 52000,
+  image: metalMinersFirstAidKit,
+  category: 'Medical Equipment',
+  rating: 5.6,
+  reviews: 56,
+  seller: 'TechMachinery Ltd',
+  description: 'Blood Pressure check',
+  inStock: true,
+  isFeatured: true
+  },
+  {
+  id: '60',
+  name: 'Micro Vent',
+  price: 45000,
+  originalPrice: 52000,
+  image: microvent,
+  category: 'Medical Equipment',
+  rating: 5.6,
+  reviews: 56,
+  seller: 'TechMachinery Ltd',
+  description: 'Blood Pressure check',
+  inStock: true,
+  isFeatured: true
+  },
+  {
+  id: '61',
+  name: 'Outdoor First Aid Kit',
+  price: 45000,
+  originalPrice: 52000,
+  image: outdoorFirstAidKit,
+  category: 'Medical Equipment',
+  rating: 5.6,
+  reviews: 56,
+  seller: 'TechMachinery Ltd',
+  description: 'Blood Pressure check',
+  inStock: true,
+  isFeatured: true
+  },
+  {
+  id: '62',
+  name: 'Oxygen Cylinders',
+  price: 45000,
+  originalPrice: 52000,
+  image: oxygenCylinders,
+  category: 'Medical Equipment',
+  rating: 5.6,
+  reviews: 56,
+  seller: 'TechMachinery Ltd',
+  description: 'Blood Pressure check',
+  inStock: true,
+  isFeatured: true
+  },
+  {
+  id: '63',
+  name: 'Oxygen Flowmeter',
+  price: 45000,
+  originalPrice: 52000,
+  image: oxygenFlowmeter,
+  category: 'Medical Equipment',
+  rating: 5.6,
+  reviews: 56,
+  seller: 'TechMachinery Ltd',
+  description: 'Blood Pressure check',
+  inStock: true,
+  isFeatured: true
+  },
+  {
+  id: '64',
+  name: 'P20 Defribillator',
+  price: 45000,
+  originalPrice: 52000,
+  image: p20Defribillator,
+  category: 'Medical Equipment',
+  rating: 5.6,
+  reviews: 56,
+  seller: 'TechMachinery Ltd',
+  description: 'Blood Pressure check',
+  inStock: true,
+  isFeatured: true
+  },
+  {
+  id: '65',
+  name: 'Phillips Defribillator',
+  price: 45000,
+  originalPrice: 52000,
+  image: phillipsDefribillaotor,
+  category: 'Medical Equipment',
+  rating: 5.6,
+  reviews: 56,
+  seller: 'TechMachinery Ltd',
+  description: 'Blood Pressure check',
+  inStock: true,
+  isFeatured: true
+  },
+  {
+  id: '66',
+  name: 'P15 Defribillator',
+  price: 45000,
+  originalPrice: 52000,
+  image: pm15Defribillaotor,
+  category: 'Medical Equipment',
+  rating: 5.6,
+  reviews: 56,
+  seller: 'TechMachinery Ltd',
+  description: 'Blood Pressure check',
+  inStock: true,
+  isFeatured: true
+  },
+  {
+  id: '67',
+  name: 'P25 Defribillator',
+  price: 45000,
+  originalPrice: 52000,
+  image: pm25Defribillator,
+  category: 'Medical Equipment',
+  rating: 5.6,
+  reviews: 56,
+  seller: 'TechMachinery Ltd',
+  description: 'Blood Pressure check',
+  inStock: true,
+  isFeatured: true
+  },
+  {
+  id: '68',
+  name: 'PMX Defribillator',
+  price: 45000,
+  originalPrice: 52000,
+  image: pmxDefribillaotor,
+  category: 'Medical Equipment',
+  rating: 5.6,
+  reviews: 56,
+  seller: 'TechMachinery Ltd',
+  description: 'Blood Pressure check',
+  inStock: true,
+  isFeatured: true
+  },
+  {
+  id: '69',
+  name: 'Rescue JumpSuit',
+  price: 45000,
+  originalPrice: 52000,
+  image: rescueJumbsuit,
+  category: 'Medical Equipment',
+  rating: 5.6,
+  reviews: 56,
+  seller: 'TechMachinery Ltd',
+  description: 'Blood Pressure check',
+  inStock: true,
+  isFeatured: true
+  },
+  {
+  id: '70',
+  name: 'Scoop Stretcher',
+  price: 45000,
+  originalPrice: 52000,
+  image: scoopStretcher,
+  category: 'Medical Equipment',
+  rating: 5.6,
+  reviews: 56,
+  seller: 'TechMachinery Ltd',
+  description: 'Blood Pressure check',
+  inStock: true,
+  isFeatured: true
+  },
+  {
+  id: '71',
+  name: 'Spinal Cord Stretcher',
+  price: 45000,
+  originalPrice: 52000,
+  image: spinalCordstretcher,
+  category: 'Medical Equipment',
+  rating: 5.6,
+  reviews: 56,
+  seller: 'TechMachinery Ltd',
+  description: 'Blood Pressure check',
+  inStock: true,
+  isFeatured: true
+  },
+  {
+  id: '72',
+  name: 'Urban 2 Paramedics Bag',
+  price: 45000,
+  originalPrice: 52000,
+  image: urban2ParamedicaBAG,
+  category: 'Medical Equipment',
+  rating: 5.6,
+  reviews: 56,
+  seller: 'TechMachinery Ltd',
+  description: 'Blood Pressure check',
+  inStock: true,
+  isFeatured: true
+  },
+  {
+  id: '73',
+  name: 'Utility Bag and Jacket',
+  price: 45000,
+  originalPrice: 52000,
+  image: utilityBagandJacket,
+  category: 'Medical Equipment',
+  rating: 5.6,
+  reviews: 56,
+  seller: 'TechMachinery Ltd',
+  description: 'Blood Pressure check',
+  inStock: true,
+  isFeatured: true
+  },
+  {
+  id: '74',
+  name: 'Ventilator Dragger',
+  price: 45000,
+  originalPrice: 52000,
+  image: ventilaotorDragger,
+  category: 'Medical Equipment',
+  rating: 5.6,
+  reviews: 56,
+  seller: 'TechMachinery Ltd',
+  description: 'Blood Pressure check',
+  inStock: true,
+  isFeatured: true
+  },
+  {
+  id: '75',
+  name: 'Ventilator Parapac',
+  price: 45000,
+  originalPrice: 52000,
+  image: ventilatorParapac,
+  category: 'Medical Equipment',
+  rating: 5.6,
+  reviews: 56,
+  seller: 'TechMachinery Ltd',
+  description: 'Blood Pressure check',
+  inStock: true,
+  isFeatured: true
+  },
+  {
+  id: '76',
+  name: 'Water Rescue Stretcher',
+  price: 45000,
+  originalPrice: 52000,
+  image: waterRescueStretcher,
+  category: 'Medical Equipment',
+  rating: 5.6,
+  reviews: 56,
+  seller: 'TechMachinery Ltd',
+  description: 'Blood Pressure check',
+  inStock: true,
+  isFeatured: true
+  },
+  {
+  id: '77',
+  name: 'Zoll R Defribillator',
+  price: 45000,
+  originalPrice: 52000,
+  image: zollRDefribillator,
+  category: 'Medical Equipment',
+  rating: 5.6,
+  reviews: 56,
+  seller: 'TechMachinery Ltd',
+  description: 'Blood Pressure check',
+  inStock: true,
   isFeatured: true
   },
   {
