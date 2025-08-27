@@ -1305,7 +1305,7 @@ export const products: Product[] = [
   },
   {
     id: "85",
-    name: "Familypack Torso",
+    name: "Family Pack Torso",
     price: 45000,
     originalPrice: 52000,
     image: FAMILYPACKTORSO,
@@ -1320,7 +1320,7 @@ export const products: Product[] = [
   },
   {
     id: "86",
-    name: "Dinamaprange",
+    name: "Dina Map Range",
     price: 45000,
     originalPrice: 52000,
     image: DINAMAPRANGE,
@@ -1395,7 +1395,7 @@ export const products: Product[] = [
   },
   {
     id: "91",
-    name: "Manual Hilow Hospitalbed",
+    name: "Manual Hillow Hospital Bed",
     price: 45000,
     originalPrice: 52000,
     image:MANUALHILOWHOSPITALBED,
@@ -1425,7 +1425,7 @@ export const products: Product[] = [
   },
   {
     id: "93",
-    name: "Moveable Scooters",
+    name: "Moveable Electric Scooters",
     price: 45000,
     originalPrice: 52000,
     image: MOVEABLESCOOTER,
@@ -1440,7 +1440,7 @@ export const products: Product[] = [
   },
   {
     id: "94",
-    name: "Overbed tables",
+    name: "OverBed Tables",
     price: 45000,
     originalPrice: 52000,
     image: OVERBEDTABLES,
@@ -1470,7 +1470,7 @@ export const products: Product[] = [
   },
   {
     id: "96",
-    name: "Patient Rolley",
+    name: "Patient Trolley",
     price: 45000,
     originalPrice: 52000,
     image:  PATIENTROLLEY,
@@ -1485,7 +1485,7 @@ export const products: Product[] = [
   },
   {
     id: "97",
-    name: "Portable Capnograph",
+    name: "Portable Capno-Graph",
     price: 45000,
     originalPrice: 52000,
     image: PORTABLECAPNOGRAPH,
@@ -1545,7 +1545,7 @@ export const products: Product[] = [
   },
   {
     id: "101",
-    name: "Transportin Cubator",
+    name: "Baby Incubator",
     price: 45000,
     originalPrice: 52000,
     image: TRANSPORTINCUBATOR,
@@ -1560,7 +1560,7 @@ export const products: Product[] = [
   },
   {
     id: "102",
-    name: "Ultrasound Scanner",
+    name: "UltraSound Scanner",
     price: 45000,
     originalPrice: 52000,
     image: ULTRASOUNDSCANNER,
@@ -1575,7 +1575,7 @@ export const products: Product[] = [
   },
   {
     id: "103",
-    name: "Vaccinefridge",
+    name: "Vaccine Fridge",
     price: 45000,
     originalPrice: 52000,
     image: VACCINEFRIDGE,
@@ -1590,7 +1590,7 @@ export const products: Product[] = [
   },
   {
     id: "104",
-    name: "Wardincubator",
+    name: "Ward Incubator",
     price: 45000,
     originalPrice: 52000,
     image: WARDINCUBATOR,
@@ -1605,7 +1605,7 @@ export const products: Product[] = [
   },
   {
     id: "105",
-    name: "Wheel Chair Rallterrain",
+    name: "All Terrain Wheel Chair",
     price: 45000,
     originalPrice: 52000,
     image: WHEELCHAIRALLTERRAIN,
@@ -1620,7 +1620,7 @@ export const products: Product[] = [
   },
   {
     id: "106",
-    name: "Wheel Chair Foldable",
+    name: "Foldable Wheel Chair",
     price: 45000,
     originalPrice: 52000,
     image: WHEELCHAIRFOLDABBLE,
