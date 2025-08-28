@@ -10,25 +10,20 @@ interface CartProps {
 }
 
 const Cart: React.FC<CartProps> = ({ cart, onUpdateQuantity, onRemoveFromCart }) => {
-  const generateWhatsAppMessage = () => {
-    let message = "Hello AfriVisionTech! I would like to request a quote for the following items:\n\n";
-    
-    cart.forEach((item, index) => {
-      message += `${index + 1}. ${item.product.name}\n`;
-      message += `   - Quantity: ${item.quantity}\n`;
-      message += `   - Category: ${item.product.category}\n`;
-      message += `   - Seller: ${item.product.seller}\n\n`;
-    });
-    
-    message += "Please provide pricing and availability for these items. Thank you!";
-    
-    return encodeURIComponent(message);
-  };
+  const generateEmailLink = () => {
+    let subject = encodeURIComponent("Quote Request from AfriVisionTech");
+    let body = "Hello AfriVisionTech! I would like to request a quote for the following items:\n\n";
 
-  const handleWhatsAppCheckout = () => {
-    const message = generateWhatsAppMessage();
-    const whatsappUrl = `https://wa.me/27797943335?text=${message}`;
-    window.open(whatsappUrl, '_blank');
+    cart.forEach((item, index) => {
+      body += `${index + 1}. ${item.product.name}\n`;
+      body += `   - Quantity: ${item.quantity}\n`;
+      body += `   - Category: ${item.product.category}\n`;
+      body += `   - Seller: ${item.product.seller}\n\n`;
+    });
+
+    body += "Please provide pricing and availability for these items. Thank you!";
+
+    return `mailto:sales@afrivisiontech.co.za?subject=${subject}&body=${encodeURIComponent(body)}`;
   };
 
   if (cart.length === 0) {
@@ -61,7 +56,7 @@ const Cart: React.FC<CartProps> = ({ cart, onUpdateQuantity, onRemoveFromCart })
       <div className="bg-gradient-to-r from-blue-600 to-blue-800 text-white py-16">
         <div className="max-w-7xl mx-auto px-4 text-center">
           <h1 className="text-5xl font-bold mb-4">Shopping Cart</h1>
-          <p className="text-xl text-blue-100">Review your items and request a quote via WhatsApp</p>
+          <p className="text-xl text-blue-100">Review your items and request a quote via email</p>
         </div>
       </div>
 
@@ -155,18 +150,12 @@ const Cart: React.FC<CartProps> = ({ cart, onUpdateQuantity, onRemoveFromCart })
                 </p>
               </div>
               
-              <div className="bg-green-50 border border-green-200 rounded-lg p-4 mb-6">
-                <p className="text-sm text-green-800">
-                  <strong>Get instant quotes via WhatsApp!</strong> Our team will respond with pricing and availability within 24 hours.
-                </p>
-              </div>
-              
               <button 
-                onClick={handleWhatsAppCheckout}
-                className="w-full bg-green-600 hover:bg-green-700 text-white py-4 rounded-lg font-semibold transition-colors mb-4 flex items-center justify-center"
+                onClick={() => window.location.href = generateEmailLink()}
+                className="w-full bg-blue-600 hover:bg-blue-700 text-white py-4 rounded-lg font-semibold transition-colors mb-4 flex items-center justify-center"
               >
                 <MessageCircle className="w-5 h-5 mr-2" />
-                Request Quote via WhatsApp
+                Request Quote via Email
               </button>
               
               <div className="text-center">

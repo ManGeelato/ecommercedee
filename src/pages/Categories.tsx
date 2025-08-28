@@ -35,6 +35,7 @@ const Categories: React.FC = () => {
                   Browse Category
                 </span>
               </Link>
+              
             );
           })}
         </div>

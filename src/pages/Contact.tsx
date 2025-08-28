@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { Phone, Mail, MapPin, Clock, Send } from 'lucide-react';
+import emailjs from '@emailjs/browser';
 
 const Contact: React.FC = () => {
   const [formData, setFormData] = useState({
@@ -9,19 +10,37 @@ const Contact: React.FC = () => {
     message: ''
   });
 
-  const handleSubmit = (e: React.FormEvent) => {
-    e.preventDefault();
-    // Handle form submission
-    console.log('Form submitted:', formData);
-    alert('Thank you for your message! We\'ll get back to you soon.');
-    setFormData({ name: '', email: '', subject: '', message: '' });
-  };
-
   const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement | HTMLSelectElement>) => {
     setFormData({
       ...formData,
       [e.target.name]: e.target.value
     });
+  };
+
+  const handleSubmit = (e: React.FormEvent) => {
+    e.preventDefault();
+
+    const templateParams = {
+      name: formData.name,
+      email: formData.email,
+      subject: formData.subject,
+      message: formData.message
+    };
+
+    emailjs.send(
+      'service_d8kfegc', // your Service ID
+      'template_rd3gxek', // replace with your Template ID
+      templateParams,
+      '8LSSn2_x_kHrsW_m1' // replace with your Public Key
+    ).then(() => {
+      alert("Your message has been sent successfully!");
+    }, (err) => {
+      console.error('EmailJS error:', err);
+      alert('Failed to send email. Please try again.');
+    });
+
+    // Reset form
+    setFormData({ name: '', email: '', subject: '', message: '' });
   };
 
   return (
@@ -57,7 +76,7 @@ const Contact: React.FC = () => {
                 </div>
                 <div>
                   <h3 className="font-semibold text-gray-800 mb-1">Email</h3>
-                  <p className="text-gray-600">info@afrivisiontech.co.za</p>
+                  <p className="text-gray-600">sales@afrivisiontech.co.za</p>
                   <p className="text-sm text-gray-500">We'll respond within 24 hours</p>
                 </div>
               </div>
@@ -68,7 +87,10 @@ const Contact: React.FC = () => {
                 </div>
                 <div>
                   <h3 className="font-semibold text-gray-800 mb-1">Address</h3>
-                  <p className="text-gray-600">Johannesburg, South Africa</p>
+                  <p className="text-gray-600">
+                    Ipic Shopping Centre<br />
+                    Cnr Main, Church, Plein & Bree Street, Vredenburg, 7380 South Africa
+                  </p>
                   <p className="text-sm text-gray-500">Visit us by appointment</p>
                 </div>
               </div>
@@ -84,18 +106,6 @@ const Contact: React.FC = () => {
                   <p className="text-gray-600">Sunday: Closed</p>
                 </div>
               </div>
-            </div>
-
-            <div className="bg-green-50 border border-green-200 rounded-lg p-6">
-              <h3 className="font-semibold text-green-800 mb-2">WhatsApp Support</h3>
-              <p className="text-green-700 mb-4">Get instant support through WhatsApp</p>
-              <a 
-                href="https://wa.me/27797943335" 
-                className="inline-flex items-center bg-green-600 hover:bg-green-700 text-white px-6 py-3 rounded-lg transition-colors"
-              >
-                <Phone className="w-5 h-5 mr-2" />
-                Chat with us on WhatsApp
-              </a>
             </div>
           </div>
 
@@ -148,11 +158,15 @@ const Contact: React.FC = () => {
                   onChange={handleChange}
                   className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent"
                 >
-                  <option value="">Select a subject</option>
-                  <option value="general">General Inquiry</option>
-                  <option value="support">Technical Support</option>
-                  <option value="billing">Billing Question</option>
-                  <option value="seller">Become a Seller</option>
+                  <option value="">Select a Product Category</option>
+                  <option value="Machinery">Machinery & Equipment</option>
+                  <option value="Medical">Medical Equipment</option>
+                  <option value="Electronics">Electronics</option>
+                  <option value="Appliances">Appliances</option>
+                  <option value="Car">Car Parts</option>
+                  <option value="Beauty">Beauty & Personal Care</option>
+                  <option value="Tools">Tools & Hardware</option>
+                  <option value="Kids">Kids & Toys</option>
                   <option value="partnership">Partnership Opportunity</option>
                   <option value="other">Other</option>
                 </select>

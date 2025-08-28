@@ -22,10 +22,11 @@ const Header: React.FC<HeaderProps> = ({ cartItemsCount, onSearchToggle, onImage
         <div className="max-w-7xl mx-auto px-4 flex justify-between items-center text-sm">
           <div className="flex items-center space-x-4">
             <span>📞 +27 87 163 4634</span>
-            <span className="hidden xl:inline">📧 info@afrivisiontech.co.za</span>
+            <span className="hidden xl:inline">📧 sales@afrivisiontech.co.za</span>
+            <span className="hidden xl:inline">📍 Ipic Shopping Centre</span>
           </div>
           <div className="flex items-center space-x-4">
-            <span className="hidden xl:inline">Free Shipping on Orders Over R500</span>
+            <span className="hidden xl:inline">Free Shipping on Orders Over R2000</span>
             <span>🌍 Global Sourcing Available</span>
           </div>
         </div>
@@ -282,7 +283,7 @@ const Header: React.FC<HeaderProps> = ({ cartItemsCount, onSearchToggle, onImage
             {/* Mobile Contact Info */}
             <div className="border-t pt-3 mt-3 text-sm text-gray-600 space-y-1">
               <div>📞 +27 87 163 4634</div>
-              <div>📧 info@afrivisiontech.co.za</div>
+              <div>📧 sales@afrivisiontech.co.za</div>
               <div className="text-blue-600">Free Shipping on Orders Over R500</div>
             </div>
           </div>

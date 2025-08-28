@@ -69,18 +69,20 @@ const Footer: React.FC = () => {
               </div>
               <div className="flex items-center">
                 <Mail className="w-5 h-5 text-blue-400 mr-3" />
-                <span className="text-gray-300">info@afrivisiontech.co.za</span>
+                <span className="text-gray-300">sales@afrivisiontech.co.za</span>
               </div>
               <div className="flex items-center">
                 <MapPin className="w-5 h-5 text-blue-400 mr-3" />
-                <span className="text-gray-300">Johannesburg, South Africa</span>
+                <span className="text-gray-300">Ipic Shopping Centre
+
+Cnr Main, Church, Plein & Bree Street, Vredenburg, 7380 South Africa</span>
               </div>
             </div>
             
             <div className="mt-6">
               <h5 className="font-semibold mb-2">WhatsApp Support</h5>
               <a 
-                href="https://wa.me/27797943335" 
+                href="https://wa.me/27871634634" 
                 className="inline-flex items-center bg-green-600 hover:bg-green-700 px-4 py-2 rounded-lg transition-colors"
               >
                 <Phone className="w-4 h-4 mr-2" />

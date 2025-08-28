@@ -122,6 +122,16 @@ import ventilatorParapac from "../assets/images/VENTILATOR PARAPAC.jpg";
 import waterRescueStretcher from "../assets/images/WATER RESCUE STRETCHER.jpg";
 import zollRDefribillator from "../assets/images/ZOLL R DEFRIBILLATOR.jpg";
 
+import channelIPCameraSystem16 from "../assets/images/16 Channel IP Camera System.JPG";
+import channelSecurity16 from "../assets/images/16 Channel Security Camera.JPG";
+import channelNVRCameraSystemW16Dome32 from "../assets/images/32Channel NVR Camera System w16 Dome.JPG";
+import channelNVRCameraSystem32 from "../assets/images/32Channel NVR Camera System.JPG";
+import inch4KNVRsystem32 from "../assets/images/32inch 4K NVR System.JPG";
+import aiSecurityCameraSystem4BulletIP from "../assets/images/AI Security Camera System 4 Bullet IP.JPG";
+import autoTrackingPTZCamera25Zoom from "../assets/images/Auto-Tracking PTZ Camera 25 Zoom.JPG";
+import autoTrackingPTZCamera40Zoom from "../assets/images/Auto-Tracking PTZ Camera 40 Zoom.JPG";
+
+
 export const products: Product[] = [
   {
     id: "1",
@@ -1631,6 +1641,122 @@ export const products: Product[] = [
     description: "Blood Pressure check",
     inStock: true,
     isHotDeal: true,
+    isFeatured: true,
+  },
+
+
+
+  {
+    id: "107",
+    name: "16 Channel IP Camera System",
+    price: 45000,
+    originalPrice: 52000,
+    image: channelIPCameraSystem16,
+    category: "Electronics",
+    rating: 5.6,
+    reviews: 56,
+    seller: "TechMachinery Ltd",
+    description: "Blood Pressure check",
+    inStock: true,
+    isFeatured: true,
+  },
+  {
+    id: "108",
+    name: "16 Channel Security Camera",
+    price: 45000,
+    originalPrice: 52000,
+    image: channelSecurity16,
+    category: "Electronics",
+    rating: 5.6,
+    reviews: 56,
+    seller: "TechMachinery Ltd",
+    description: "Blood Pressure check",
+    inStock: true,
+    isHotDeal: true,
+  },
+  {
+    id: "109",
+    name: "32 Channel NVR, 16 Dome Camera System",
+    price: 45000,
+    originalPrice: 52000,
+    image: channelNVRCameraSystemW16Dome32,
+    category: "Electronics",
+    rating: 5.6,
+    reviews: 56,
+    seller: "TechMachinery Ltd",
+    description: "Blood Pressure check",
+    inStock: true,
+    isFeatured: true,
+  },
+  {
+    id: "110",
+    name: "32 Channel NVR Camera System",
+    price: 45000,
+    originalPrice: 52000,
+    image: channelNVRCameraSystem32,
+    category: "Electronics",
+    rating: 5.6,
+    reviews: 56,
+    seller: "TechMachinery Ltd",
+    description: "Blood Pressure check",
+    inStock: true,
+    isHotDeal: true,
+    isFeatured: true,
+  },
+  {
+    id: "111",
+    name: "32 Channel, 4K NVR Camera System",
+    price: 45000,
+    originalPrice: 52000,
+    image: inch4KNVRsystem32,
+    category: "Electronics",
+    rating: 5.6,
+    reviews: 56,
+    seller: "TechMachinery Ltd",
+    description: "Blood Pressure check",
+    inStock: true,
+    isFeatured: true,
+  },
+  {
+    id: "112",
+    name: "Bullet IP, Artificial Intelligence Camera System",
+    price: 45000,
+    originalPrice: 52000,
+    image: aiSecurityCameraSystem4BulletIP,
+    category: "Electronics",
+    rating: 5.6,
+    reviews: 56,
+    seller: "TechMachinery Ltd",
+    description: "Blood Pressure check",
+    inStock: true,
+    isFeatured: true,
+  },
+  {
+    id: "113",
+    name: "PTZ 25 * Zoom Auto-Tracking Camera System",
+    price: 45000,
+    originalPrice: 52000,
+    image: autoTrackingPTZCamera25Zoom,
+    category: "Electronics",
+    rating: 5.6,
+    reviews: 56,
+    seller: "TechMachinery Ltd",
+    description: "Blood Pressure check",
+    inStock: true,
+    isFeatured: true,
+  },
+  {
+    id: "106",
+    name: "PTZ 40 * Zoom Auto-Tracking Camera System",
+    price: 45000,
+    originalPrice: 52000,
+    image: autoTrackingPTZCamera40Zoom,
+    category: "Electronics",
+    rating: 5.6,
+    reviews: 56,
+    seller: "TechMachinery Ltd",
+    description: "Blood Pressure check",
+    inStock: true,
     isFeatured: true,
   },
 ];
