@@ -46,38 +46,7 @@ const CategoryPage: React.FC<CategoryPageProps> = ({ cart, wishlist, onAddToCart
         </div>
       </div>
 
-      {/* Category Stats */}
-      <div className="bg-white py-8 border-b">
-        <div className="max-w-7xl mx-auto px-4">
-          <div className="grid md:grid-cols-4 gap-6 text-center">
-            <div>
-              <div className="text-3xl font-bold text-blue-600 mb-2">
-                {category.productCount.toLocaleString()}
-              </div>
-              <div className="text-gray-600">Total Products</div>
-            </div>
-            <div>
-              <div className="text-3xl font-bold text-green-600 mb-2">
-                {Math.floor(category.productCount * 0.8).toLocaleString()}
-              </div>
-              <div className="text-gray-600">In Stock</div>
-            </div>
-            <div>
-              <div className="text-3xl font-bold text-orange-600 mb-2">
-                {Math.floor(category.productCount * 0.15).toLocaleString()}
-              </div>
-              <div className="text-gray-600">On Sale</div>
-            </div>
-            <div>
-              <div className="text-3xl font-bold text-purple-600 mb-2">
-                {Math.floor(category.productCount * 0.1).toLocaleString()}
-              </div>
-              <div className="text-gray-600">New Arrivals</div>
-            </div>
-          </div>
-        </div>
-      </div>
-
+     
       {/* Products */}
       <div className="py-12">
         <div className="max-w-7xl mx-auto px-4">
@@ -104,7 +73,7 @@ const CategoryPage: React.FC<CategoryPageProps> = ({ cart, wishlist, onAddToCart
                   product={product}
                   onAddToCart={onAddToCart}
                   onAddToWishlist={onAddToWishlist}
-                  isInCart={cart.some(item => item.id === product.id)}
+                  isInCart={cart.some(item => item?.id === product.id)}
                   isInWishlist={wishlist.some(item => item.id === product.id)}
                 />
               ))}

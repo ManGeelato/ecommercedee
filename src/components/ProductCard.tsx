@@ -39,11 +39,11 @@ const ProductCard: React.FC<ProductCardProps> = ({ product, onAddToCart, onAddTo
               🆕 New
             </span>
           )}
-          {discountPercentage > 0 && (
+          {/* {discountPercentage > 0 && (
             <span className="bg-orange-500 text-white px-2 py-1 rounded-full text-xs font-bold">
               -{discountPercentage}%
             </span>
-          )}
+          )} */}
         </div>
 
         {/* Quick Actions */}
@@ -97,7 +97,7 @@ const ProductCard: React.FC<ProductCardProps> = ({ product, onAddToCart, onAddTo
         </div>
 
         <div className="mb-3">
-          <p className="text-xs text-gray-500">by {product.seller}</p>
+          <p className="text-xs text-blue-600 font-medium">Short Description: {product.description}</p>
         </div>
 
         <button
@@ -110,7 +110,7 @@ const ProductCard: React.FC<ProductCardProps> = ({ product, onAddToCart, onAddTo
           }`}
         >
           <ShoppingCart className="w-4 h-4 mr-2" />
-          {product.inStock ? 'Request Quote' : 'Out of Stock'}
+          {product.inStock ? 'Add To Cart' : 'Out of Stock'}
         </button>
       </div>
     </div>

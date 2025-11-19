@@ -21,42 +21,6 @@ const HotDeals: React.FC<HotDealsProps> = ({ cart, wishlist, onAddToCart, onAddT
       </div>
 
       <DealOfTheDay />
-      
-      <ProductGrid
-        title="All Hot Deals"
-        filter={(product) => product.isHotDeal}
-        onAddToCart={onAddToCart}
-        onAddToWishlist={onAddToWishlist}
-      />
-
-      <div className="bg-white py-12">
-        <div className="max-w-7xl mx-auto px-4 text-center">
-          <h2 className="text-3xl font-bold text-gray-800 mb-8">Why Shop Our Hot Deals?</h2>
-          <div className="grid md:grid-cols-3 gap-8">
-            <div className="p-6">
-              <div className="w-16 h-16 bg-red-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                <span className="text-2xl">⚡</span>
-              </div>
-              <h3 className="text-xl font-semibold mb-2">Lightning Fast</h3>
-              <p className="text-gray-600">Deals update daily with new offers</p>
-            </div>
-            <div className="p-6">
-              <div className="w-16 h-16 bg-red-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                <span className="text-2xl">💰</span>
-              </div>
-              <h3 className="text-xl font-semibold mb-2">Best Prices</h3>
-              <p className="text-gray-600">Up to 70% off on selected items</p>
-            </div>
-            <div className="p-6">
-              <div className="w-16 h-16 bg-red-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                <span className="text-2xl">🎯</span>
-              </div>
-              <h3 className="text-xl font-semibold mb-2">Limited Time</h3>
-              <p className="text-gray-600">Exclusive offers for a limited period</p>
-            </div>
-          </div>
-        </div>
-      </div>
     </div>
   );
 };

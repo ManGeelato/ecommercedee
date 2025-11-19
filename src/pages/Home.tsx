@@ -20,20 +20,6 @@ const Home: React.FC<HomeProps> = ({ cart, wishlist, onAddToCart, onAddToWishlis
       <DealOfTheDay />
       
       <ProductGrid
-        title="🔥 Hot Deals"
-        filter={(product) => product.isHotDeal}
-        onAddToCart={onAddToCart}
-        onAddToWishlist={onAddToWishlist}
-      />
-      
-      <ProductGrid
-        title="⭐ Featured Products"
-        filter={(product) => product.isFeatured}
-        onAddToCart={onAddToCart}
-        onAddToWishlist={onAddToWishlist}
-      />
-      
-      <ProductGrid
         title="🆕 New Arrivals"
         filter={(product) => product.isNewArrival}
         onAddToCart={onAddToCart}
