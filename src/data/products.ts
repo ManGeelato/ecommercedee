@@ -4,10 +4,6 @@ import machinery02 from "../assets/images/machinery02.jpg";
 import machinery03 from "../assets/images/machinery03.jpg";
 import machinery04 from "../assets/images/machinery04.jpg";
 
-import electronics01 from "../assets/images/electronics01.jpg";
-import electronics02 from "../assets/images/electronics02.jpg";
-import electronics03 from "../assets/images/electronics03.jpg";
-import electronics04 from "../assets/images/electronics04.jpg";
 
 import appliances01 from "../assets/images/appliances01.jpg";
 import appliances02 from "../assets/images/appliances02.jpg";
@@ -122,15 +118,14 @@ import ventilatorParapac from "../assets/images/VENTILATOR PARAPAC.jpg";
 import waterRescueStretcher from "../assets/images/WATER RESCUE STRETCHER.jpg";
 import zollRDefribillator from "../assets/images/ZOLL R DEFRIBILLATOR.jpg";
 
-import channelIPCameraSystem16 from "../assets/images/16 Channel IP Camera System.JPG";
-import channelSecurity16 from "../assets/images/16 Channel Security Camera.JPG";
-import channelNVRCameraSystemW16Dome32 from "../assets/images/32Channel NVR Camera System w16 Dome.JPG";
-import channelNVRCameraSystem32 from "../assets/images/32Channel NVR Camera System.JPG";
-import inch4KNVRsystem32 from "../assets/images/32inch 4K NVR System.JPG";
-import aiSecurityCameraSystem4BulletIP from "../assets/images/AI Security Camera System 4 Bullet IP.JPG";
-import autoTrackingPTZCamera25Zoom from "../assets/images/Auto-Tracking PTZ Camera 25 Zoom.JPG";
-import autoTrackingPTZCamera40Zoom from "../assets/images/Auto-Tracking PTZ Camera 40 Zoom.JPG";
-
+import channelIPCameraSystem16 from "../assets/images/16 Channel Security Camera System, 4K AI IP Cameras w Motorized Zoom.PNG";
+import channelSecurity16 from "../assets/images/16 Channel AI Security Camera System, 16 Bullet IP Cams, 4K PoE NVR.PNG";
+import channelNVRCameraSystemW16Dome32 from "../assets/images/32ch NVR System, 4k 8mp AI Security Cameras Dome Infrared PoE, Audio.PNG";
+import channelNVRCameraSystem32 from "../assets/images/32ch NVR System, 4k 8mp AI Security Cameras Dome Infrared PoE, Audio.PNG";
+import inch4KNVRsystem32 from "../assets/images/4CH 4K Security Camera System.PNG";
+import aiSecurityCameraSystem4BulletIP from "../assets/images/8CH 4K Camera System.PNG";
+import autoTrackingPTZCamera25Zoom from "../assets/images/4K Auto-Tracking PTZ Camera System - Copy.PNG";
+import autoTrackingPTZCamera40Zoom from "../assets/images/4K Auto-Tracking PTZ Camera System.PNG";
 
 export const products: Product[] = [
   {
