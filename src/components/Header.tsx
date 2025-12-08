@@ -26,7 +26,7 @@ const Header: React.FC<HeaderProps> = ({ cartItemsCount, onSearchToggle, onImage
             <span className="hidden xl:inline">📍 Ipic Shopping Centre</span>
           </div>
           <div className="flex items-center space-x-4">
-            <span className="hidden xl:inline">Free Shipping on Orders Over R2000</span>
+            <span className="hidden xl:inline">Trusted Services and Deliveries Globally</span>
             <span>🌍 Global Sourcing Available</span>
           </div>
         </div>
@@ -284,7 +284,7 @@ const Header: React.FC<HeaderProps> = ({ cartItemsCount, onSearchToggle, onImage
             <div className="border-t pt-3 mt-3 text-sm text-gray-600 space-y-1">
               <div>📞 +27 87 163 4634</div>
               <div>📧 sales@afrivisiontech.co.za</div>
-              <div className="text-blue-600">Free Shipping on Orders Over R500</div>
+              <div className="text-blue-600">Trusted Services and Deliveries Globally</div>
             </div>
           </div>
         </div>

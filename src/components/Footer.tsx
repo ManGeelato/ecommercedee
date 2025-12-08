@@ -10,9 +10,9 @@ const Footer: React.FC = () => {
           <div>
             <div className="flex items-center mb-4">
               <img 
-                src="/AfriVisionTech Logo Design.png" 
+                src="src/assets/AfriVisionTech Logo Design.png" 
                 alt="AfriVisionTech" 
-                className="h-8 w-auto mr-3"
+                className="h-20 w-auto mr-3"
               />
             </div>
             <p className="text-gray-300 mb-4">
@@ -47,7 +47,7 @@ const Footer: React.FC = () => {
           </div>
 
           {/* Seller Info */}
-          <div>
+          {/* <div>
             <h4 className="text-lg font-semibold mb-4">For Sellers</h4>
             <ul className="space-y-2">
               <li><a href="#" className="text-gray-300 hover:text-white transition-colors">Become a Seller</a></li>
@@ -57,7 +57,8 @@ const Footer: React.FC = () => {
               <li><a href="#" className="text-gray-300 hover:text-white transition-colors">Global Sourcing</a></li>
               <li><a href="#" className="text-gray-300 hover:text-white transition-colors">Customs & Shipping</a></li>
             </ul>
-          </div>
+          </div> */}
++
 
           {/* Contact Info */}
           <div>
