@@ -12,6 +12,7 @@ import Cart from './pages/Cart';
 import About from './pages/About';
 import Contact from './pages/Contact';
 import { Product, CartItem } from './types';
+import ProductDetail from './pages/ProductDetail';
 
 function App() {
   const [cart, setCart] = useState<CartItem[]>([]);
@@ -74,6 +75,8 @@ function App() {
             } 
           />
           <Route path="/categories" element={<Categories />} />
+          <Route path="/product/:productSlug" element={<ProductDetail   onAddToCart={handleAddToCart}
+              onAddToWishlist={handleAddToWishlist}/>} />
           <Route 
             path="/category/:categoryId" 
             element={
